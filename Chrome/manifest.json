@@ -30,7 +30,7 @@
 		}
 	],
 	"web_accessible_resources": [
-		"jquery.min.map"
+		"jquery-1.10.2.min.map"
 	],
 	"icons": {
 		"48": "icon48.png",

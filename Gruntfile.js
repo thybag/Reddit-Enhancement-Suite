@@ -41,6 +41,11 @@ var res_files = [
 	'lib/modules/troubleShooter.js',
 	'lib/modules/commentHidePersistor.js',
 	'lib/modules/bitcointip.js',
+
+	// Disabled modules (uncomment, then rerun grunt script to enable)
+	// 'lib/modules/snoonet.js',
+	// 'lib/modules/RESPro.js',
+	// 'lib/modules/redditProfiles.js',
 ];
 
 module.exports = function(grunt) {
@@ -107,6 +112,10 @@ module.exports = function(grunt) {
 		}
 	});
 	
+	// Build all with "grunt"
+	grunt.registerTask('default', ['copy', 'concat']);
+
+	// Setup for devlopment with "grunt chrome" or "grunt firefox" (enables watch task)
 	grunt.registerTask('chrome',    ['copy:chrome', 'concat:chrome', 'watch:chrome']);
 	grunt.registerTask('ie',     	['copy:ie', 'concat:ie', 'watch:ie']);
 	grunt.registerTask('opera',     ['copy:opera', 'concat:opera', 'watch:opera']);
