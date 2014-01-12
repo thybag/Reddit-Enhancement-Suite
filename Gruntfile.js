@@ -1,5 +1,6 @@
 // JS files needed for RES
 var res_files = [
+	// Core
 	'lib/jquery-1.10.2.min.js', 
 	'lib/guiders-1.2.8.js', 
 	'lib/tinycon.js', 
@@ -7,7 +8,39 @@ var res_files = [
 	'lib/jquery.dragsort-0.6.js',
 	'lib/jquery.tokeninput.js',
 	'lib/jquery-fieldselection.min.js',
-	'lib/reddit_enhancement_suite.user.js'
+	'lib/reddit_enhancement_suite.user.js',
+
+	// Modules
+	'lib/modules/subRedditTagger.js',
+	'lib/modules/uppersAndDowners.js',
+	'lib/modules/keyboardNav.js',
+	'lib/modules/userTagger.js',
+	'lib/modules/betteReddit.js',
+	'lib/modules/singleClick.js',
+	'lib/modules/commentPreview.js',
+	'lib/modules/commentTools.js',
+	'lib/modules/showImages.js',
+	'lib/modules/showKarma.js',
+	'lib/modules/showParent.js',
+	'lib/modules/hideChildComments.js',
+	'lib/modules/neverEndingReddit.js',
+	'lib/modules/usernameHider.js',
+	'lib/modules/userHightlight.js',
+	'lib/modules/saveComments.js',
+	'lib/modules/styleTweaks.js',
+	'lib/modules/accountSwitcher.js',
+	'lib/modules/filteReddit.js',
+	'lib/modules/newCommentCount.js',
+	'lib/modules/spamButton.js',
+	'lib/modules/commentNavigator.js',
+	'lib/modules/subredditManager.js',
+	'lib/modules/settingsNavigation.js',
+	'lib/modules/dashboard.js',
+	'lib/modules/subredditInfo.js',
+	'lib/modules/notifications.js',
+	'lib/modules/troubleShooter.js',
+	'lib/modules/commentHidePersistor.js',
+	'lib/modules/bitcointip.js',
 ];
 
 module.exports = function(grunt) {
